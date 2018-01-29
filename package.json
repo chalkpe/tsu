@@ -1,0 +1,30 @@
+{
+  "name": "tsu",
+  "version": "1.0.0",
+  "description": "Watch your Twitch streamer even if you're coding",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChalkPE/tsu.git"
+  },
+  "keywords": [
+    "twitch"
+  ],
+  "author": "ChalkPE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChalkPE/tsu/issues"
+  },
+  "homepage": "https://github.com/ChalkPE/tsu#readme",
+  "configSchema": {
+    "id": {
+      "type": "string",
+      "title": "Channel ID",
+      "description": "Example: ch960116 of https://twitch.tv/ch960116",
+      "default": "ch960116"
+    }
+  }
+}

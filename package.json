@@ -25,6 +25,14 @@
       "title": "Channel ID",
       "description": "Example: ch960116 of https://twitch.tv/ch960116",
       "default": "ch960116"
+    },
+    "opacity": {
+      "type": "number",
+      "title": "Opacity",
+      "description": "Opacity of Twitch player",
+      "default": 50,
+      "minimum": 0,
+      "maximum": 100
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "tsu",
+      "submenu": [{
+        "label": "Toggle",
+        "command": "tsu:toggle"
+      }]
+    }]
+  }]
+}

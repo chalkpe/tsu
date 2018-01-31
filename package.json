@@ -24,15 +24,26 @@
       "type": "string",
       "title": "Channel ID",
       "description": "Example: ch960116 of https://twitch.tv/ch960116",
-      "default": "ch960116"
+      "default": "ch960116",
+      "order": 1
     },
     "opacity": {
       "type": "number",
       "title": "Opacity",
-      "description": "Opacity of Twitch player",
-      "default": 50,
+      "description": "Opacity of Twitch player (in the background)",
+      "default": 40,
       "minimum": 0,
-      "maximum": 100
+      "maximum": 100,
+      "order": 2
+    },
+    "foregroundOpacity": {
+      "type": "number",
+      "title": "Foreground opacity",
+      "description": "Opacity of Twitch player (in the foreground)",
+      "default": 80,
+      "minimum": 0,
+      "maximum": 100,
+      "order": 3
     }
   }
 }

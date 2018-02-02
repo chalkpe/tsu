@@ -44,6 +44,13 @@
       "minimum": 0,
       "maximum": 100,
       "order": 3
+    },
+    "playerBackground": {
+      "type": "string",
+      "title": "Player background",
+      "description": "Background CSS for Twitch player",
+      "default": "transparent",
+      "order": 4
     }
   }
 }
